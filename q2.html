@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>q2 - Click Counter</title>
+  <style>
+    body { font-family: Arial, sans-serif; display: flex; flex-direction: column; align-items: center; padding: 60px; gap: 20px; background: #f5f5f5; }
+    #count-display { font-size: 5rem; font-weight: bold; color: #333; }
+    .buttons { display: flex; gap: 15px; }
+    button { padding: 12px 28px; font-size: 1.2rem; cursor: pointer; border: none; border-radius: 8px; color: #fff; }
+    #increment-btn { background: #4CAF50; }
+    #decrement-btn { background: #f44336; }
+    #reset-btn { background: #888; }
+    button:hover { opacity: 0.85; }
+  </style>
+</head>
+<body>
+  <h2>Click Counter</h2>
+  <div id="count-display">0</div>
+  <div class="buttons">
+    <button id="decrement-btn">− Decrease</button>
+    <button id="reset-btn">Reset</button>
+    <button id="increment-btn">+ Increase</button>
+  </div>
+  <script src="q2.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>q1 - querySelector + toggle</title>
+  <style>
+    body { font-family: Arial, sans-serif; display: flex; flex-direction: column; align-items: center; padding: 40px; gap: 20px; }
+    #box {
+      width: 200px; height: 200px; background: #ccc;
+      display: none; border-radius: 12px; transition: all 0.3s;
+    }
+    #box.active { display: block; background: #4CAF50; }
+    #box.highlight { background: #FF5722; }
+    button { padding: 10px 20px; font-size: 1rem; cursor: pointer; border: none; border-radius: 8px; background: #333; color: #fff; }
+  </style>
+</head>
+<body>
+  <button id="toggle-btn">Show Box</button>
+  <button id="demo-btn">Flash Highlight</button>
+  <div id="box"></div>
+  <script src="q1.js"></script>
+</body>
+</html>
