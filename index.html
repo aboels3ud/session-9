@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ahmed Mohamed - Frontend Developer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Ahmed.dev</div>
+      <button class="burger" id="burger-btn" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <p id="hero-greeting" class="greeting"></p>
+      <h1>Hi, I'm <span class="highlight" id="hero-name"></span></h1>
+      <h2 id="hero-title"></h2>
+      <p id="hero-about" class="hero-desc"></p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <p id="about-text" class="about-text"></p>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section section-dark">
+    <div class="container">
+      <h2 class="section-title">My Skills</h2>
+      <div id="skills-grid" class="skills-grid"></div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">My Projects</h2>
+      <div id="projects-grid" class="projects-grid"></div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section section-dark">
+    <div class="container">
+      <h2 class="section-title">Contact Me</h2>
+      <div id="contact-links" class="contact-links"></div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p id="footer-text"></p>
+  </footer>
+
+  <!-- Scripts: data first, then main script -->
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
