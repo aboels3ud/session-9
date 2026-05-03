@@ -36,7 +36,7 @@ const portfolioData = {
         "My personal portfolio website featuring dynamic DOM rendering, burger menu, and time-based greetings.",
       tech: ["HTML", "CSS", "JavaScript"],
       github: "https://github.com/aboels3ud/Myprofile.io.git",
-      live: "#",
+      live: "https://aboels3ud.github.io/Myprofile.io/",
     },
     {
       id: 3,
